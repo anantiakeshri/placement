@@ -1,3 +1,5 @@
+# Sol 1
+
 # head = [1,2,3,4,5]
 
 # def reverseLL(head):
@@ -10,6 +12,8 @@
 #         current = next
 #     return prev
 # print(reverseLL(head))
+
+# sol 2
 
 class ListNode:
     def __init__(self, val=0, next=None):
