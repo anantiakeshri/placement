@@ -15,3 +15,4 @@ class Solution:
         print (s)
     
 command = "G()(al)"
+
