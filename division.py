@@ -4,8 +4,8 @@
 # print(a//b)
 # print(a/b)
 
-# n = int(input())
+n = int(input())
 
-# for i in range(n):
-#     print(i*i)
+for i in range(n):
+    print(i*i)
 
