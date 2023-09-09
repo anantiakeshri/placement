@@ -1,6 +1,6 @@
-#Fibonacci_Number using Dynamic Programming
-#Dynamic Programming
-
+# Fibonacci_Number using Dynamic Programming
+# Dynamic Programming
+""" Solution no 1 """
 # def fibo(number):
 #     number1 = 0
 #     number2 = 1
@@ -21,7 +21,7 @@
 # print(fibo(12))
 
 
-#2nd Solution
+""" 2nd Solution """
 # Fibonacci Series using Dynamic Programming
 # def fibonacci(n):
     
@@ -34,7 +34,7 @@
 
 # print(fibonacci(9))
 
-#3rd solution to print Series of Fibonacci Number
+""" 3rd Solution """
 n = int(input("Enter length of Fibonacci series: "))
 num1 = 0
 num2 = 1
@@ -48,8 +48,3 @@ while(count <= n):
 	num2 = next_number
 	next_number = num1 + num2
 	t_number = num1 + num2
- 
-
-
-
-
