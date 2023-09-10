@@ -1,5 +1,6 @@
+# Find a String question
 
-string = 'ABCDCDC'
+string = 'ABCDCDCDC'
 sub_string = 'CDC'
 
 def count_substring(string, sub_string):
