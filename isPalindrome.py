@@ -1,5 +1,5 @@
 
-S = 'abc'
+S = 'malayalam'
 
 def isPalindrome(S):
     if S == S[::-1]:
