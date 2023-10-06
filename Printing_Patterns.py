@@ -1,4 +1,4 @@
-""" Printing Patterns """
+""" Printing Different Patterns """
 
 """ First Pattern """
 # * * * * * *
