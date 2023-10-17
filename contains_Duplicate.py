@@ -1,5 +1,6 @@
-nums = [1,2,3,4,5,1,2,3]
+# Leet Code - Contains Duplicate
 
+nums = [1,2,3,4,5,1,2,3]
 
 def containsDuplicate(nums):
     return len(set(nums))!=len(nums)
