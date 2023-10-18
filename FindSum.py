@@ -1,3 +1,5 @@
+#  Find Sum
+
 # Explanation: min = -4, max =  5. Sum = -4 + 5 = 1
 # N = 1
 # A = [8]
