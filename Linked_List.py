@@ -1,4 +1,4 @@
-#Singly Linked List
+# Singly Linked List
 
 class Node:
    def __init__(self, dataval=None):
