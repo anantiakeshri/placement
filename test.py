@@ -1,4 +1,5 @@
-""" Args are tuple """
+
+""" Arguments are tuple """
 def add(*args):
     sum = 0
     for n in args:
@@ -7,8 +8,8 @@ def add(*args):
         
 print(add(70, 7, 70, 7))
 
-""" Kwargs are Dict """
-def cal(n, *args, **kwargs):
-    print(n, args, kwargs)
+""" Kwargs are Dictionary """
+def cal(*args, **kwargs):
+    print(args, kwargs)
     
-cal(5, 3, 5, 9, x=10, y=30)
+cal(3, 5, 9, x=10, y=30)
