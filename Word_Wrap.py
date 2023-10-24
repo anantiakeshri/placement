@@ -1,11 +1,13 @@
+# Word Wrap
+
 n = 4
-nums = [3 2 2 5]
+nums = [3,2, 2, 5]
 k = 6
 
-def solveWordWrap(self, nums, k):
-		#Code here
-	A=nums                                  # A is copy of nums
-    n=len(A)
+def solveWordWrap(nums, n, k):
+	#Code here
+	# A=nums                                  # A is copy of nums
+    n=len(nums)
     dp=[float("inf")]*(n)                   #filling dp with infinity
     dp[-1]=0                                #filling last element of dp with 0 because last line will have no cost
         
@@ -13,7 +15,7 @@ def solveWordWrap(self, nums, k):
         length=-1                           #length of line
             
         for j in range(i,n):                #traversing from i to n of each word
-            length+=A[j]+1                  #adding length of each word and 1 for space
+            length+=nums[j]+1                  #adding length of each word and 1 for space
 
             if length<=k:
                 if j==n-1:
