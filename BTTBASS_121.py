@@ -1,4 +1,4 @@
-""" Leet Code - Ques 121 """
+""" Leet Code - Ques 121 - Best time to buy and sell stocks"""
 
 prices = [7,6,4,3,1]
 
